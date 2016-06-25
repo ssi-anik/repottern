@@ -23,8 +23,6 @@ abstract class BaseRepository extends Grammar implements RepositoryInterfaceCont
 
 	public function __construct ()
 	{
-		// call the parent construct -- Grammar::__construct()
-		parent::__construct();
 		// build the model if it is an instance of Illuminate\Database\Eloquent\Model
 		$this->buildModel();
 	}
@@ -51,11 +49,7 @@ abstract class BaseRepository extends Grammar implements RepositoryInterfaceCont
 
 	public function __call ($name, $arguments)
 	{
-		if ( in_array($name, $this->getMethods()) ) {
-		} else {
-			throw new InvalidMethodException(sprintf("Method \"%s\" is not available.", $name));
-		}
-
+		// save the method name and its arguments
 		return $this;
 	}
 }
