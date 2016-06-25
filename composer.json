@@ -1,0 +1,20 @@
+{
+    "name": "anik/repottern",
+    "description": "Repottern is a repository pattern for Laravel.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ssi-anik",
+            "email": "sirajul.islam.anik@gmail.com"
+        }
+    ],
+    "autoload":{
+        "psr-4":{
+            "Anik\\Repottern\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "illuminate/support": "~5"
+    }
+}
