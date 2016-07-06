@@ -54,7 +54,7 @@ class HomeController extends Controller
 }
 ```
 
-_Thinks to note in here, to call the methods statically with the class name, you MUST have to use the **protected** access modifier with that method name_
+_Things to note in here, to call the methods statically with the class name, you MUST have to use the **protected** access modifier with that method name_
 
 ## License
 Repottern is released under the MIT Licence.
