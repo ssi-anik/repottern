@@ -60,4 +60,4 @@ _Things to note in here, to call the methods statically with the class name, you
 Repottern is released under the MIT Licence.
 
 ## Bugs and Issues
-If you find any bugs and other issues, please open an issue and let me know. Forks are always welcomed. 
+If you find any bug or other issues, please open an issue and let me know. Forks are always welcomed. 
