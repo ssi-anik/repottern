@@ -7,7 +7,7 @@ This works like the Laravel Eloquent does. Exactly the same, with some extra fea
 * PHP  5.6+
 
 ## How to install
-`composer require ssi-anik/repottern`
+`composer require anik/repottern`
 
 ## Usages
 To make it use, you've to create a Class, where your Class which will extend `Anik\Repottern\BaseRepository` , next implement the model method from that class and you're done.
