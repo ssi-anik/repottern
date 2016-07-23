@@ -94,9 +94,9 @@ abstract class BaseRepository extends Grammar implements RepositoryInterfaceCont
 	{
 		$result = $this->fetchResult();
 		if ( $result instanceof Builder || count($this->methods) === 0 ) {
-			return $this->call_user_method($result, "get", $args);
+			$result = $this->call_user_method($result, "get", $args);
 		}
-
+		$this->methods = [];
 		return $result;
 	}
 
